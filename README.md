@@ -38,7 +38,7 @@ Updates above the chain (_on Model, and Make_) effect the _search records_ below
 
 ### Tables and Schema Separation
 
-Table Declarations:   [migrations/structure/sqls/20161117034124-tables-down.sql](migrations/structure/sqls/20161117034124-tables-down.sql)  
+Table Declarations:   [migrations/structure/sqls/20161117034124-tables-up.sql](migrations/structure/sqls/20161117034124-tables-up.sql)  
   
 Here, the tables are defined in two environments, the `trigger` schema and the `view` schema. This allows for maintenance of two environments separate from the costs of each other. ID's are defined as their own columns in UUID format. This allows for quick selection of known ID's through the primary key index.
 
