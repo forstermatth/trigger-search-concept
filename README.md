@@ -121,7 +121,7 @@ The load tests are run on serial connections, to allow for a correct measurement
 
 ### Observations
 
-As expected, the trigger's extra operations on top of the regular operations on the tables increase their cost. The significant cost of the update and delete can be seen in the ten thousand updates and deletes. The cost of updating the tables with the triggers is __86% of the cost__ without the triggers.  
+As expected, the trigger's extra operations on top of the regular operations on the tables increase their cost. The significant cost of the update and delete can be seen in the ten thousand updates and deletes. The cost of updating the tables with the triggers is __706%__ greater than without the triggers.  
   
 The search results also come as expected. The greater cost of operations on the tables is balanced by the lower cost of the more important search operations. The cost of the trigger maintained search is only __2% of the cost__ of the view.
 
