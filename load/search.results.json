@@ -1,0 +1,26 @@
+{
+  "view": {
+    "100": 4740,
+    "1000": 38581,
+    "general": {
+      "time": 38,
+      "foundResult": false
+    },
+    "specific": {
+      "time": 29,
+      "foundResult": false
+    }
+  },
+  "trigger": {
+    "100": 92,
+    "1000": 849,
+    "general": {
+      "time": 17,
+      "foundResult": true
+    },
+    "specific": {
+      "time": 1,
+      "foundResult": false
+    }
+  }
+}

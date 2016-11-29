@@ -1,0 +1,8 @@
+provider_id   | 3a32c162-edd3-40da-98c8-4790ac6c60a1
+dealer_id     | 15fde5e2-60f6-4d10-b2ab-57119f8928e5
+partner_id    | fb77ffbd-92e6-45e5-90c5-41fe536b77af
+provider_type | search
+provider_info | {"id": "13", "auth": "BrA4wa82egutreSW"}
+
+insert into provider (provider_id, dealer_id, partner_id, provider_type, provider_info)
+values (uuid_generate_v4(), '11102cb5-f2f0-4bc4-be68-16776089f2ef', 'fb77ffbd-92e6-45e5-90c5-41fe536b77af', 'search', '{"id": "13", "auth": "BrA4wa82egutreSW"}');
